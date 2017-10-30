@@ -9,6 +9,10 @@ Rails.application.routes.draw do
 
   get 'lizards/:number', to: 'pages#lizard', as: 'lizards', number: /\d+/
 
+  get 'pokemon', to: 'pokemons#index', as: 'pokemons'
+
+  get 'pokemon/:id', to: 'pokemons#show', as: 'pokemon', id: /\d+/
+
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

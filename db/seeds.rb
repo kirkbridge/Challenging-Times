@@ -7,5 +7,12 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
   100.times do
-    Pokemon.create(name: Faker::Pokemon.name, move: Faker::Pokemon.move, quote: Faker::SiliconValley.quote)
+     Pokemon.create(name: Faker::Pokemon.name, move: Faker::Pokemon.move, quote: Faker::Hacker.say_something_smart)
   end
+
+  # pokemons = Pokemon.all
+  #
+  # pokemons.each do |pokemon|
+  #   pokemon.destroy
+  #   pokemon.save
+  # end
