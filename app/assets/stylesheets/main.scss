@@ -1,0 +1,32 @@
+nav ul li
+{
+  display: inline;
+  margin-right: 10px;
+  list-style: none;
+}
+
+ul
+{
+  padding-left: 0
+}
+
+#main, header
+{
+  width: 800px;
+  margin: 0 auto;
+}
+
+div.pokemon h2
+{
+  text-transform: capitalize;
+}
+
+div.pokemon p.move
+{
+  font-size: 1.2em;
+  font-family: monospace;
+}
+div.pokemon p.advice
+{
+  font-family: sans-serif;
+}
